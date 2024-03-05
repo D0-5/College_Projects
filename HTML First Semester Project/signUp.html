@@ -1,0 +1,81 @@
+                <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign-Up</title>
+        <meta charset="utf-8">
+        <link href="CSS/Stylesheet.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+         <header>
+           <p><a href="https://www.gov.ie/en/campaigns/healthy-ireland"><img src="studentImages/logo.png"></a></p>
+            
+       <nav>
+           <ul>
+            <li class="menu"><a  href="Main.html" class="link">Home</a></li>    
+            <li class="menu"><a href="#2" class="link">Contact</a></li>    
+            <li class="menu"><a href="#3" class="link">About</a></li>    
+            <li class="menu"><a href="#4" class="link">News</a></li>           
+            </ul>
+        </nav>
+        </header>
+        <h1>Sign up for our newsletter!</h1>
+        
+    
+        
+        
+       <main class="form"><form action="https://litstudentprojects.net/A1signUpNewsletter.php"                 method="post"> 
+                <fieldset>
+                    <legend>Your Information</legend>
+          
+                    <p><label for="FirNam" class="signup">First Name: </label><input type="text" id="FirNam" name="fname"></p>
+                    
+                    <p><label for="SurNam" class="signup">Surname: </label><input type="text" id="SurNam" name="sname"</p>
+                        
+                    <p><label for="Email" class="signup">Email: </label><input type="email" id="Email" name="email1"</p>
+                        
+                    <p><label for="Adr1" class="signup">Address 1: </label><input type="text" name="address1" id="address1"></p>
+                    
+                    <p><label for="Adr2" class="signup">Address 2: </label><input type="text" name="address2" id="address2"></p>
+                    
+                    <p> <label for="DOB" class="signup">Date Of Birth: </label><input type="date" name="dob" id="DOB" </p>
+                        
+                    <p><label for="TCooking" class="signup">What type of cooking are you interested in?</label></p>
+                    
+                    <p><select id="TCooking" name="typeCooking">
+                        <option value="family">Family meals</option>
+                        <option value="fine">Fine dining</option>
+                        <option value="gluten">Gluten free</option>
+                        <option value="budget">Cooking on a budget</option>
+                        <option value="kids">Cooking with kids</option> 
+                
+                    </select></p>
+                    
+                    
+                   <input type="hidden" value="crunchy pumpkin pie">
+                    
+                    
+                    <input type="submit">
+                    <input type="reset">
+                    
+                    <p><a href="Main.html" class="cancel">Cancel</a></p>
+                    
+                </fieldset> 
+            </form>
+             
+             </main>
+        
+        
+        <footer>
+        <ul id="contact">
+           <li class="tct">Author: Dylan O'Shea |</li> 
+           <li class="tct">Email: 
+               <a href="mailto:k00279267@student.lit.ie" id="email">
+                   K00279267@student.lit.ie</a> | </li> 
+           <li class="tct">Phone: +3534505048</li>      
+        </ul>
+      
+        </footer>
+    </body>    
+</html>

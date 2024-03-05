@@ -1,0 +1,192 @@
+
+body {font-family: verdana, sans-serif;
+        background-color: #EFF0D1;}
+td, th {border: 2px solid black;}
+h2 {font-size: 1.75em;
+    padding: .5em;
+    text-align: center}
+table {border: 3px solid black;
+        border-collapse: collapse;
+        font-size: 1.3em;}
+.tbl1 {background-color: #C1DB95;}
+.tbl2 {background-color: #92c119;}
+caption {font-size: 1.2em;}
+
+.menu 
+    {display: inline-block;
+    margin-left: 2em;
+    font-weight: bold;
+        
+            /*this is an example of padding*/
+                    padding: 1.2em;
+   }
+
+.link   
+    {font-size: 1.4em;
+    color: black;
+    text-decoration: none;}
+nav
+    {background-color: #92c119;}
+h1  
+    {text-align: center;
+    font-size: 2.5em;
+    font-variant: small-caps;}
+nav a:hover
+        {background-color: #80a30d;
+        padding: 1.01em;}
+.tct{display: inline-block;}
+
+#ingredients 
+        {background-color:#C1DB95;
+        padding-left: 6em;
+        border: .2em solid #5F7E10;
+        border-radius: 2em;
+        width: 35em;
+        font-size: 1.3em;
+        }
+
+
+
+label{text-align: right;
+          display: inline-block;
+          width: 10em;
+          float: left;
+          margin-left: 1em;}
+fieldset
+        {
+            /*this is an example of borders*/
+            border: .35em solid #5F7E10;
+            
+        border-radius: 1em;
+        background-color: #71a734;
+        width: 30em;
+        }
+
+legend  {border: .175em solid #5F7E10;
+        border-radius: .3em;
+        background-color: #80a30d;
+        font-weight:bold;
+        font-family: calibri;
+        font-size: 1.6em;}
+input[type=text],
+input[type=email],
+input[type=date]{background-color: #c1db95;
+                border-radius: .5em;
+                border: .2em solid #5F7E10;
+}
+hr  {border:.4em solid #c1db95;
+    border-radius: 6em;}
+
+select{background-color: #c1db95;
+        border: .25em solid #5F7E10;
+        text-align: center;
+        border-radius: .4em;
+        padding: .2em;}
+input[type=submit], 
+input[type=reset]  {background-color: #80a30d;
+                    border: .2em solid #c1db95;
+                    border-radius: 4em;
+                    padding:.5em;
+                    padding-left: .8em;
+                    padding-right: .8em;
+                    margin-top: 3em;}
+
+
+#Signup{margin-left: 20em;
+        margin-right: 3em;
+        }
+
+.form {margin-left: auto;
+        margin-right: auto;}
+
+.Inf{width: 20em;
+    
+     /*this is an example of margins*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#email{text-decoration: none;
+        color:darkgray;}
+
+#email:hover{color: #5F7E10;}
+
+#pic {
+    border: 2px solid #EFF0D1;
+    border-radius: 3em;
+    width: 40em;}
+
+
+#cntr {margin-left: auto;
+        margin-left: auto;
+        text-align: center;
+        color: gray;}
+
+
+#ingredients a, #Method a 
+{text-decoration: none; color: blueviolet;}
+
+#ingredients a:hover, 
+#Method a:hover{color: lightcyan;}
+
+#TCooking{margin-top: 1em;}
+
+main{
+    display: flex;
+    gap:4em;
+}
+#img{flex:30%;
+    margin-top: 5em;}
+#ing{flex:40%;}
+
+#Flx{display: flex;
+    gap:6em;}
+
+#Method
+        {background-color:#C1DB95;
+        border: .2em solid #5F7E10;
+        border-radius: 2em;
+        width: 40em;
+        font-size: 1.3em;
+        padding: .5em;
+        padding-left: 1em;
+        flex:50%;} 
+#table{flex: 40%;
+        margin: 1em;}
+#table h2 {margin: 1em 3em;}
+#end {width: 100%;}
+.signup{position: relative;}
+       
+.cancel {
+	box-shadow: 0px 5px 0px 0px #5F7E10;
+	background-color: #80a30d;
+	border-radius:13px;
+	border:2px solid #5f7e10;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS , sans-serif;
+	font-size:17px;
+	padding:13px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.cancel:hover {
+	background-color:#72b352;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cancel:active {
+	position:relative;
+	top:1px;
+    margin-right: auto;
+    margin-left: auto}
+#body {width: 100%;}
+
+#signup{display: block;
+        margin-right: auto;
+        margin-left: auto;}   
+footer{text-align: center;}

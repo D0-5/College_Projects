@@ -1,0 +1,3 @@
+﻿  CA1.cpp
+C:\Users\Dylan\OneDrive - Technological University of the Shannon Midwest\SEM1\Intro to Programming\CA_1\CA1\CA1\CA1.cpp(133,15): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  CA1.vcxproj -> C:\Users\Dylan\OneDrive - Technological University of the Shannon Midwest\SEM1\Intro to Programming\CA_1\CA1\x64\Debug\CA1.exe
